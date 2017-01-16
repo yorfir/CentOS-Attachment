@@ -1,4 +1,4 @@
-###CentOS安装
+###CentOS安装Aria2配合webdir使用
 如果没有git/wget命令请安装，安装代码如下
 ```shell
 yum install -y git 
