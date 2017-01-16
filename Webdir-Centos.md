@@ -28,7 +28,7 @@ yum -y install aria2
 1.3配置Aria2
 ```
 mkdir /root/.aria2
-wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/aria2.config /root/.aria2/aria2.config
+wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/aria2.conf /root/.aria2/aria2.conf
 wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/dht.dat /root/.aria2/dht.dat
 echo '' > /root/aria2.session 
 ```
