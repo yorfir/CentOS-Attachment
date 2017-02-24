@@ -1,4 +1,8 @@
 #!/bin/bash
+# MySQL 5.5.36 update scripts
+# Author: wdlinux
+# Url: http://www.wdlinux.cn
+# Modify: KenGe
 IN_DIR="/www/wdlinux"
 #cpu = `grep 'processor' /proc/cpuinfo | sort -u | wc -l`
 if [ ! $1 ];then
@@ -59,5 +63,5 @@ sleep 2
 sh $IN_DIR/tools/mysql_wdcp_chg.sh
 service mysqld restart
 echo
-echo "MYSQL UPDATE FINISH!"
+echo "MYSQL Éý¼¶½áÊø£¡"
 mysql -V

@@ -1,8 +1,8 @@
 #!/bin/bash
-# PHP 5.4 update scripts
+# PHP 5.6.16 update scripts
 # Author: wdlinux
 # Url: http://www.wdlinux.cn
-# Modify: fengye
+# Modify: KenGe
 
 if [ ! $1 ];then
 	Ver=5.6.16
@@ -53,7 +53,7 @@ if [ ! -d /www/wdlinux/apache_php-${Ver}/lib/php/extensions ];then
 fi
 service httpd restart
 echo
-echo "php update is OK"
+echo "php 升级成功！"
 fi
 
 if [ -d /www/wdlinux/nginx_php ];then
@@ -81,6 +81,6 @@ if [ ! -d /www/wdlinux/nginx_php-${Ver}/lib/php/extensions ];then
 fi
 service php-fpm start
 echo
-echo "php update is OK"
+echo "php 升级成功！"
 fi
 echo
