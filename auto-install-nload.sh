@@ -1,3 +1,6 @@
+#!/bin/bash
+# Version:0.1
+# Author:www.bgp.la
 yum -y install gcc gcc-c++ kernel-devel
 yum -y install ncurses-devel
 wget http://www.roland-riegel.de/nload/nload-0.7.4.tar.gz
