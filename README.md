@@ -13,3 +13,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Atta
 
 wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/auto-install-nload.sh && sh auto-install-nload.sh
 
+一键安装云转码
+wget --no-check-certificate https://raw.githubusercontent.com/yorfir/auto-install-ppvod/master/install-ppvod.sh && sh install-ppvod.sh
