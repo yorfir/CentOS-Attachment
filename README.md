@@ -20,3 +20,4 @@ if you want to use it and there is something do not understand you can set me a 
 一键安装besttrace
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/besttrace.sh && sh besttrace.sh`
+---
