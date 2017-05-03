@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root
-wget --no-check-certificate https://cdn.ipip.net/17mon/besttrace4linux.zip
+wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/soft/besttrace4linux.zip
 yum -y install unzip
 unzip besttrace4linux.zip
 chmod a+x besttrace
