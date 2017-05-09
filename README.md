@@ -27,4 +27,4 @@ CentOS6+一键开启BBR
 
 CentOS6+一键安装zabbix server
 
-`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/centos-6-zabbix-3-2-6.sh && centos-6-zabbix-3-2-6.sh`
+`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/centos-6-zabbix-3-2-6.sh && sh centos-6-zabbix-3-2-6.sh`
