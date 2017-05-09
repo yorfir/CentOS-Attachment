@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 #
 # Auto install latest kernel for TCP BBR
+#自动最新带有TCP BBR的内核
 #
 # System Required:  CentOS 6+, Debian7+, Ubuntu12+
+#系统要求：CentOS 6+, Debian7+, Ubuntu12+
 #
-# Copyright (C) 2016-2017 Teddysun <i@teddysun.com>
+# Copyright (C) 2016-2017 Flyfire <support@bgp.la>
 #
-# URL: https://teddysun.com/489.html
+# URL: https://help.flyfire.cc
 #
 
 red='\033[0;31m'
@@ -169,7 +171,7 @@ install_bbr() {
         install_elrepo
         yum --enablerepo=elrepo-kernel -y install kernel-ml kernel-ml-devel
         if [ $? -ne 0 ]; then
-            echo -e "${red}Error:${plain} Install latest kernel failed, please check it."
+            echo -e "${red}Error:${plain} Install latest kernel failed, please check it.${red}错误:${plain} 安装最新内核失败, 请检查."
             exit 1
         fi
     elif [[ "${release}" == "debian" || "${release}" == "ubuntu" ]]; then
@@ -184,7 +186,7 @@ install_bbr() {
         dpkg -i ${deb_kernel_name}
         rm -fv ${deb_kernel_name}
     else
-        echo -e "${red}Error:${plain} OS is not be supported, please change to CentOS/Debian/Ubuntu and try again."
+        echo -e "${red}Error:${plain} OS is not be supported, please change to CentOS/Debian/Ubuntu and try again.${red}错误:不支持${plain} 系统 ,请更换CentOS/Debian/Ubuntu 后再尝试."
         exit 1
     fi
 
