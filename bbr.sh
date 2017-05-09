@@ -199,7 +199,16 @@ echo " Kernel  : $kern"
 echo "----------------------------------------"
 echo " Auto install latest kernel for TCP BBR"
 echo
-echo " URL: https://teddysun.com/489.html"
+echo " URL: https://help.flyfire.cc"
+echo "----------------------------------------"
+echo "---------- 系统信息 ----------"
+echo " 系统     : $opsy"
+echo " 分支   : $arch ($lbit Bit)"
+echo " 内核版本  : $kern"
+echo "----------------------------------------"
+echo " 自动安装有TCP BBR的最新内核"
+echo
+echo " URL: https://help.flyfire.cc"
 echo "----------------------------------------"
 echo
 echo "Press any key to start...or Press Ctrl+C to cancel.按任意键开始...或者按Ctrl+C取消安装"
