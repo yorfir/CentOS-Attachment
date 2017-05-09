@@ -24,3 +24,6 @@ if you want to use it and there is something do not understand you can set me a 
 CentOS6+一键开启BBR
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/auto-install-bbr.sh && sh auto-install-bbr.sh`
+CentOS6+一键安装zabbix server
+
+`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/centos-6-zabbix-3-2-6.sh && centos-6-zabbix-3-2-6.sh`
