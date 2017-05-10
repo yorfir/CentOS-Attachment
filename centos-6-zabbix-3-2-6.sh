@@ -9,7 +9,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Atta
 rpm -Uvh http://www6.atomicorp.com/channels/atomic/centos/6/x86_64/RPMS/atomic-release-1.0-21.el6.art.noarch.rpm
 
 #安装所需组件
-yum -y install httpd libcurl-devel libxml2-devel mysql mysql-devel mysql-server net-snmp net-snmp-devel \
+yum -y install gcc httpd libcurl-devel libxml2-devel mysql mysql-devel mysql-server net-snmp net-snmp-devel \
                ntp redhat-lsb php php-bcmath php-gd php-mbstring php-mysql php-xmlreader \
                php-xmlwriter vim wget
 
