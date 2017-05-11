@@ -4,6 +4,11 @@ This repository make for myself to log something in useing CentOS
 
 if you want to use it and there is something do not understand you can set me a issue.
 
+一键使用speedtest测速
+`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/speedtest.sh && sh speedtest.sh && speedtest`
+
+一键安装ZetaTCP加速
+`wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh" && bash /tmp/appex.sh 'install'`
 
 一键安装fikker 3.7.2
 
