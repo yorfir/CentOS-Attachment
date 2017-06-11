@@ -6,7 +6,7 @@
 Path=`pwd`
 wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/soft/zabbix-3.2.6.tar.gz
 #安装atomic-release YUM源
-rpm -Uvh http://www6.atomicorp.com/channels/atomic/centos/6/x86_64/RPMS/atomic-release-1.0-21.el6.art.noarch.rpm
+#wget -q -O - http://www.atomicorp.com/installers/atomic | sh
 
 #安装所需组件
 yum -y install gcc httpd libcurl-devel libxml2-devel mysql mysql-devel mysql-server net-snmp net-snmp-devel \
