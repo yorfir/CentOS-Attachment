@@ -21,6 +21,7 @@ if you want to use it and there is something do not understand you can set me a 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/install-fikker-3.7.3.sh && sh install-fikker-3.7.3.sh`
 
 升级fikker3.7.2 到 3.7.3
+
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/update-fikker-3.7.2-to-3.7.3.sh && sh update-fikker-3.7.2-to-3.7.3.sh`
 
 一键安装nload
