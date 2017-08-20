@@ -178,18 +178,6 @@ mkdir -p /var/www/html/plugins/discovery/
 tar xf discovery*.gz 
 \cp -rf  discovery*/* /var/www/html/plugins/discovery/
 chown -R apache:apache /var/www/html/plugins/discovery/
-mkdir -p /var/www/html/plugins/quicktree/
-tar xf quicktree*.gz 
-\cp -rf  quicktree*/* /var/www/html/plugins/quicktree/
-chown -R apache:apache /var/www/html/plugins/quicktree/
-mkdir -p /var/www/html/plugins/watermark/
-tar xf watermark*.gz 
-\cp -rf  watermark*/* /var/www/html/plugins/watermark/
-chown -R apache:apache /var/www/html/plugins/watermark/
-mkdir -p /var/www/html/plugins/weathermap/
-tar xf weathermap*.gz 
-\cp -rf  weathermap*/* /var/www/html/plugins/weathermap/
-chown -R apache:apache /var/www/html/plugins/weathermap/
 service httpd restart
 # 安装syslog支持
 echo -e "\033[34m 安装rsyslog！ \033[0m"
