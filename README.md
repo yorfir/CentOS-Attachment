@@ -61,3 +61,7 @@ CentOS6+一键安装zabbix server
 一键安装iftop
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/install-iftop.sh && sh install-iftop.sh`
+
+一键安装nethogs
+
+`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/install-Nethogs.sh && sh install-Nethogs.sh`
