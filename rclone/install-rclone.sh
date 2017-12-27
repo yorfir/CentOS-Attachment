@@ -7,3 +7,4 @@ sudo chmod 755 /usr/bin/rclone
 sudo mkdir -p /usr/local/share/man/man1
 sudo cp rclone.1 /usr/local/share/man/man1/
 sudo mandb
+yum install -y screen && screen -S rclone
