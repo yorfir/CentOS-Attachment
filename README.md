@@ -65,6 +65,7 @@ CentOS6+一键安装zabbix server
 一键安装nethogs
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/install-nethogs.sh && sh install-nethogs.sh`
+
 一键安装配置rclone
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/rclone/install-rclone.sh && sh install-rclone.sh`
