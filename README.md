@@ -72,4 +72,4 @@ CentOS6+一键安装zabbix server
 
 一键安装配置smokeping-2.6.11
 
-`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/rclone/install-smokeping.sh && sh install-smokeping.sh`
+`wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/install-smokeping.sh && sh install-smokeping.sh`
