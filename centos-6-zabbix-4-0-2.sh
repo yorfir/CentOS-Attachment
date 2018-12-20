@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #2018年12月20日
-#安装执行需要下载zabbix3.2.6源包
+#安装执行需要下载zabbix4.0.2源包
 #获取当前路径
 Path=`pwd`
 wget --no-check-certificate https://sourceforge.net/projects/zabbix/files/ZABBIX%20Latest%20Stable/4.0.2/zabbix-4.0.2.tar.gz
@@ -28,11 +28,11 @@ service mysqld start
 chkconfig --level 3 mysqld on
 
 #修改数据库密码
-mysqladmin -u'root' password "root"
+mysqladmin -u'root' password "xiaomatw"
 
 #创建zabbix数据库
-mysql -h'127.0.0.1' -u'root' -p'root' -P'3306' -e "CREATE DATABASE zabbix CHARACTER SET utf8 COLLATE utf8_bin;"
-mysql -h'127.0.0.1' -u'root' -p'root' -P'3306' -e "GRANT ALL PRIVILEGES ON zabbix.* TO zabbix@localhost IDENTIFIED BY 'zabbix';"   
+mysql -h'127.0.0.1' -u'root' -p'xiaomatw' -P'3306' -e "CREATE DATABASE zabbix CHARACTER SET utf8 COLLATE utf8_bin;"
+mysql -h'127.0.0.1' -u'root' -p'xiaomatw' -P'3306' -e "GRANT ALL PRIVILEGES ON zabbix.* TO zabbix@localhost IDENTIFIED BY 'zabbix';"   
 
 #导入数据表到zabbix数据库
 mysql -h'127.0.0.1' -u'zabbix' -p'zabbix' -P'3306' zabbix < ./zabbix-4.0.2/database/mysql/schema.sql 
