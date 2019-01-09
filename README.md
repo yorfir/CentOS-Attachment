@@ -77,3 +77,6 @@ CentOS6+一键安装zabbix server
 一键安装配置raycdn centos7用
 
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/raycdn-centos7.sh && sh raycdn-centos7.sh`
+
+网络加速四合一
+`yum install -y wegt && wget -N --no-check-certificate "https://raw.githubusercontent.com/yorfir/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
