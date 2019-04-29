@@ -1,4 +1,4 @@
-# CentOS 使用小脚本
+﻿# CentOS 使用小脚本
 
 This repository make for myself to log something in useing CentOS
 
@@ -79,4 +79,4 @@ CentOS6+一键安装zabbix server
 `wget --no-check-certificate https://raw.githubusercontent.com/yorfir/CentOS-Attachment/master/raycdn-centos7.sh && sh raycdn-centos7.sh`
 
 网络加速四合一
-`yum install -y wegt && wget -N --no-check-certificate "https://raw.githubusercontent.com/yorfir/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
+`yum install -y wget && wget -N --no-check-certificate "https://raw.githubusercontent.com/yorfir/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh`
