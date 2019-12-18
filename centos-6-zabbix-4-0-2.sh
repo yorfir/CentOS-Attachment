@@ -4,7 +4,7 @@
 #安装执行需要下载zabbix4.0.2源包
 #获取当前路径
 Path=`pwd`
-wget --no-check-certificate https://sourceforge.net/projects/zabbix/files/ZABBIX%20Latest%20Stable/4.0.2/zabbix-4.0.2.tar.gz
+wget http://nas.wyk.hk:99/zabbix/zabbix-4.0.2.tar.gz
 #安装atomic-release YUM源
 wget -q -O - http://www.atomicorp.com/installers/atomic | sh
 
